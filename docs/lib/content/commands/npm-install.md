@@ -13,7 +13,7 @@ description: Install a package
 This command installs a package and any packages that it depends on. If the
 package has a package-lock, or an npm shrinkwrap file, or a yarn lock file,
 the installation of dependencies will be driven by that, respecting the
-following order of precedence:
+the following order of precedence:
 
 * `npm-shrinkwrap.json`
 * `package-lock.json`
@@ -53,7 +53,7 @@ into a tarball (b).
     dependencies in [`package.json`](/configuring-npm/package-json).
 
     With the `--production` flag (or when the `NODE_ENV` environment
-    variable is set to `production`), npm will not install modules listed
+    the variable is set to `production`), npm will not install modules listed
     in `devDependencies`. To install all modules listed in both
     `dependencies` and `devDependencies` when `NODE_ENV` environment
     variable is set to `production`, you can use `--production=false`.
